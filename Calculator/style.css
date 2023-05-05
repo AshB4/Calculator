@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://images.pexels.com/photos/998591/pexels-photo-998591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #calculator {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  #display {
+    grid-column: 1 / -1;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #999;
+  }
+  
